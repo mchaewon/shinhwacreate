@@ -11,6 +11,13 @@
     <script>
       function toggleMenu(){
         document.getElementById("menu").classList.toggle("on");
+        document.getElementById("hamburger").classList.toggle("on");
+        document.getElementById("close").classList.toggle("on");
+      }
+      function toggleClose(){
+        document.getElementById("menu").classList.remove("on");
+        document.getElementById("hamburger").classList.remove("on");
+        document.getElementById("close").classList.remove("on");
       }
     </script>
   </head>
