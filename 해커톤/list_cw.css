@@ -10,15 +10,15 @@
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
     grid-gap:3rem;
-    margin: 3rem 4rem;
+    margin: 0.8rem 0.3rem;
     text-align: center;
 }
 
 .card{
-    width: 25rem;
+    width: 23rem;
     border-radius: 2rem;
     overflow: hidden;
-    margin: 50px 8px;
+    margin: 2rem 1rem;
     transition: all 0.3s cubic-bezier(0.42, 0.0, 0.58, 1.0);
     background:#fff;
     /*background:rgba(233, 207, 91, 0.603);*/
@@ -26,8 +26,7 @@
    7px 7px 20px 0px rgba(0,0,0,.1),
    4px 4px 5px 0px rgba(0,0,0,.1);
     cursor: pointer;
-
-
+    
 }
 
 
@@ -50,8 +49,8 @@
     color: #242c3b;
 }
 .card img{
-    width: 17.5rem;
-    height: 14rem;
+    width: 16rem;
+    height: 12rem;
 }
 a{
     color:#000;
@@ -61,3 +60,4 @@ a{
   a:hover{
     color:#000;
   }
+
