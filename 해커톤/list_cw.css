@@ -9,15 +9,15 @@
 #wrapper{
     box-sizing: border-box;
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
-    grid-gap:1rem;
-    margin: 50px;
+    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+    grid-gap:3rem;
+    margin: 10px;
 }
 .card{
-    width: 400px;
+    width: 430px;
     border-radius: 8px;
     overflow: hidden;
-    margin: 100px 50px;
+    margin: 50px 8px;
     transition: all 0.3s cubic-bezier(0.42, 0.0, 0.58, 1.0);
     background-color: #8aa2d3;
 }
@@ -34,7 +34,7 @@
     color: #242c3b;
     padding:0.5rem;
 }
-.card>data{
+.card>p{
     padding:0.5rem;
     line-height: 1.6em;
     color: #242c3b;
