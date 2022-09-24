@@ -4,7 +4,7 @@ body {
     text-align: center;
     margin: 0;
     background-color: #fff;
-    color:navy ;
+    color:#000051 ;
 }
 
 #time_main_jy {
@@ -75,7 +75,7 @@ h3 {
     #map_size_jy{
         display: inline-block;
         width: 70%;
-        height: 450px;
+        height: 70%;
         order:4;
     }
     #map_size_jy>img{
