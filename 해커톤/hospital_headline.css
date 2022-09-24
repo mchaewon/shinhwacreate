@@ -1,0 +1,20 @@
+#headline_jy {
+    border-bottom: 1px solid #6B9900;
+    text-align: left;
+    background-color: #BCE067;
+    position: sticky;
+    top: 0;
+}
+
+#headline_jy>img {
+    width: 60px;
+    vertical-align: middle;
+}
+
+#headline_jy>h3 {
+    display: inline-block;
+    position: absolute;
+    top: 20%;
+    margin: 0;
+    margin-left: 10px;
+}
