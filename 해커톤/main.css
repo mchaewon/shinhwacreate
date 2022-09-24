@@ -87,6 +87,7 @@ h2 span:last-child {
   animation-delay: 14s;
   opacity: 0;
   filter: alpha(opacity=40);
+  cursor: pointer;
 }
 .animation {
   

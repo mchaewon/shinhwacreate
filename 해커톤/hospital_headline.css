@@ -3,6 +3,7 @@
     text-align: left;
     background-color: #4374D9;
     position: sticky;
+
     z-index: 10000;
     top: 0;
 }
