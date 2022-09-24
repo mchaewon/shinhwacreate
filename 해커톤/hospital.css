@@ -3,7 +3,8 @@ body {
     font-size: 1.23rem;
     text-align: center;
     margin: 0;
-    background-color: #a1b145;
+    background-color: #fff;
+    color:navy ;
 }
 
 #time_main_jy {
@@ -14,6 +15,7 @@ body {
 #time_jy {
     text-align: center;
     display: inline-block;
+    margin:0;
 }
 
 #map_size_jy {
@@ -53,10 +55,15 @@ h3 {
     margin: 0;
 }
 
-#exceptiontime_jy{
+.exceptiontime_jy{
     font-weight: 700;
 }
-
+#time_jy{
+    padding: 0;
+}
+#time_jy li{
+    list-style: none;
+}
 .mobie_jy{
     display: none;
 }

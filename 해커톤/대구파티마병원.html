@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>신세계병원</title>
+    <title>대구파티마병원</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
@@ -13,19 +13,20 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
         rel="stylesheet">
     <script>
-        const name = "신세계병원";
-        const img_name = "사진/신세계병원.png"
-        const map_api = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14970.788966738015!2d128.56150166664813!3d35.95533489645318!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3565e1a6d5b817df%3A0x39d61e7553f8a05d!2z7Iug7IS46rOE7Jes7ISx67OR7JuQ!5e0!3m2!1sko!2skr!4v1663896101127!5m2!1sko!2skr";
-        const monday = "월 09:00 ~ 18:00";
-        const tuesday = "화 09:00 ~ 18:00";
-        const wednesday = "수 09:00 ~ 18:00";
-        const thursday = "목 09:00 ~ 18:00";
-        const friday = "금 09:00 ~ 18:00";
-        const saturday = "토 09:00 ~ 16:00";
-        const sunday = "일 09:00 ~ 12:30";
-        const call = "전화번호 : 053-954-7771";
-        const address = "주소 : 대구 북구 동북로 196 신세계병원";
-        const urlconnect = "http://www.ssghospital.co.kr/";
+        const name = "대구파티마병원";
+        const img_name = "사진/대구파티마병원.jpg"
+        const map_api = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3232.570534524509!2d128.6216592156158!3d35.88404002642914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3565e190df8facbd%3A0x7513417acc9d6a23!2z64yA6rWs7YyM7Yuw66eI67OR7JuQ!5e0!3m2!1sko!2skr!4v1664009588933!5m2!1sko!2skr"
+        const monday = "월 08:40 ~ 16:30";
+        const tuesday = "화 08:40 ~ 16:30";
+        const wednesday = "수 08:40 ~ 16:30";
+        const thursday = "목 08:40 ~ 16:30";
+        const friday = "금 08:40 ~ 16:30";
+        const saturday = "토 08:40 ~ 12:00";
+        const sunday = ""
+        const call = "전화번호 : 1688-7770";
+        const address = "주소 : 대구 동구 신암동 576-31 파티마병원";
+        const homepage = "홈페이지 : "
+        const urlconnect = "https://www.fatima.or.kr/front/index.asp";
 
         function toggleMenu() {
             document.getElementById("menu").classList.toggle("on");
@@ -109,7 +110,7 @@
         document.getElementById("time_jy").children[4].innerHTML = friday;
         document.getElementById("time_jy").children[5].innerHTML = saturday;
         document.getElementById("time_jy").children[6].innerHTML = sunday;
-        let week = [5, 6];
+        let week = [5];
         for (let day in week)
             document.getElementById("time_jy").children[week[day]].classList.add("exceptiontime_jy");
         document.getElementById("time_main_jy").children[3].innerHTML = call;
