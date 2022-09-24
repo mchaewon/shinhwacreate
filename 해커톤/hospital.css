@@ -67,7 +67,7 @@ h3 {
 .mobie_jy{
     display: none;
 }
-@media (max-width:1050px) {
+@media (max-width:1000px) {
     #container_jy {
         display: flex;
         flex-direction: column;
@@ -78,12 +78,15 @@ h3 {
         height: 70%;
         order:4;
     }
+    #map_size_jy>*{
+        height: 250px;
+    }
     #map_size_jy>img{
         display: none;
     }
     .mobie_jy{
         display: inline-block;
-        width: 40%;
+        width: 80%;
         margin:auto;
     }
 }
