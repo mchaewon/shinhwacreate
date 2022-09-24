@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>강남치과의원</title>
+    <title>덕재내과의원</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
@@ -13,18 +13,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
         rel="stylesheet">
     <script>
-        const name = "강남치과의원";
-        const img_name = "사진/강남치과의원.png"
-        const map_api = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3232.663079543143!2d128.61714291561563!3d35.8817726265542!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3565e19ad3dba177%3A0x26ebbea58f060fb8!2z7Iug7JWU7IiY7LmY6rO87J2Y7JuQ!5e0!3m2!1sko!2skr!4v1664027765042!5m2!1sko!2skr";
-        const monday = "월 09:30 ~ 18:30";
-        const tuesday = "화 09:30 ~ 18:30";
-        const wednesday = "수 09:30 ~ 18:30";
-        const thursday = "목 09:30 ~ 18:30";
-        const friday = "금 09:30 ~ 18:30";
-        const saturday = "토 09:30 ~ 14:00(1, 3주만 진료)";
+        const name = "덕재내과의원";
+        const img_name = "사진/덕재내과의원.png"
+        const map_api = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3232.8012999000252!2d128.60724271561557!3d35.87838592674077!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3565e181fda42a27%3A0xa5f181f74769e26f!2z642V7J6s64K06rO87J2Y7JuQ!5e0!3m2!1sko!2skr!4v1664032426489!5m2!1sko!2skr";
+        const monday = "월 09:00 ~ 18:00";
+        const tuesday = "화 09:00 ~ 18:00";
+        const wednesday = "수 09:00 ~ 12:30";
+        const thursday = "목 09:00 ~ 18:00";
+        const friday = "금 09:00 ~ 18:00";
+        const saturday = "토 09:00 ~ 12:30";
         const sunday = "일 정기휴무";
-        const call = "전화번호 : 053-941-1151";
-        const address = "주소 : 대구 북구 연암로 182";
+        const call = "전화번호 : 053-953-2277";
+        const address = "주소 : 대구 동구 신암로 100 디앤씨 빌딩";
         const urlconnect = "";
 
         function toggleMenu() {
@@ -109,7 +109,7 @@
         document.getElementById("time_jy").children[4].innerHTML = friday;
         document.getElementById("time_jy").children[5].innerHTML = saturday;
         document.getElementById("time_jy").children[6].innerHTML = sunday;
-        let week = [5, 6];
+        let week = [2, 5, 6];
         for (let day in week)
             document.getElementById("time_jy").children[week[day]].classList.add("exceptiontime_jy");
         document.getElementById("time_main_jy").children[3].innerHTML = call;
