@@ -1,6 +1,6 @@
 
 body{
-    background: #d8d8d8;
+    background: #4374D9;
     font-family: 'Noto Sans KR', sans-serif;
     display: flex;
     align-items: center;
@@ -14,6 +14,7 @@ body{
     grid-template-rows: repeat(3,250px);
     column-gap: 15px;
     row-gap: 15px;
+    margin: 1.0rem;
 }
 
 article {
@@ -55,6 +56,7 @@ article {
     cursor: pointer;
 
     box-shadow: 0 5px 4px rgba(0,0,0,.5);
+
   }
   
   .btn:hover {
