@@ -3,7 +3,7 @@ body {
     font-size: 1.23rem;
     text-align: center;
     margin: 0;
-    background-color: #9BB8D5;
+    background-color: #a4c8e0;
 }
 
 #time_main_jy {
@@ -40,7 +40,7 @@ body {
 }
 #homepage_jy {
     display: inline-block;
-    color: #9BB8D5;
+    color: #4374D9;
     text-decoration: none;
     -webkit-transition: all 0.1s linear;
     transition: all 0.1s linear;
@@ -53,7 +53,7 @@ h3 {
     margin: 0;
 }
 
-#exceptiontime_jy {
+#exceptiontime_jy{
     font-weight: 700;
 }
 
