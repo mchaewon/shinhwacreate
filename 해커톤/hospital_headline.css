@@ -1,20 +1,24 @@
 #headline_jy {
-    border-bottom: 1px solid #6B9900;
+    border-bottom: 1px solid #4374D9;
     text-align: left;
-    background-color: #BCE067;
+    background-color: #4374D9;
     position: sticky;
     top: 0;
 }
-
-#headline_jy>img {
+#headline_jy a img {
     width: 60px;
     vertical-align: middle;
 }
 
-#headline_jy>h3 {
+#headline_jy h3 {
     display: inline-block;
     position: absolute;
     top: 20%;
     margin: 0;
-    margin-left: 10px;
+    margin-left: 15px;
+    color: white;
+    text-decoration: none;
+    text-shadow: -1px -1px 0px #3162C7,
+     3px 3px 0px #3162C7,
+    6px 6px 0px #002C91;
 }
