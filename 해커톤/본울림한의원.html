@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>본울림한의원</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="hospital.css">
+    <link rel="stylesheet" href="hospital_headline.css">
+    <link rel="stylesheet" href="hospital_menu.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <script>
+        const name = "본울림한의원";
+        const img_name = "사진/본울림한의원.png"
+        const map_api = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3232.7070319599957!2d128.60911491561563!3d35.880695726613446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3565e182093855b7%3A0x3327b3dd595183fa!2z67O47Jq466a87ZWc7J2Y7JuQ!5e0!3m2!1sko!2skr!4v1664037701230!5m2!1sko!2skr";
+        const monday = "월 09:30 ~ 19:00";
+        const tuesday = "화 09:30 ~ 19:00";
+        const wednesday = "수 09:30 ~ 19:00";
+        const thursday = "목 09:30 ~ 19:00";
+        const friday = "금 09:30 ~ 19:00";
+        const saturday = "토 09:30 ~ 14:00";
+        const sunday = "일 정기휴무";
+        const call = "전화번호 : 053-939-6780";
+        const address = "주소 : 대구 북구 신암로 111 3층 304호";
+        const urlconnect = "";
+
+        function toggleMenu() {
+            document.getElementById("menu").classList.toggle("on");
+            document.getElementById("hamburger").classList.toggle("on");
+            document.getElementById("close").classList.toggle("on");
+        }
+        function toggleClose() {
+            document.getElementById("menu").classList.remove("on");
+            document.getElementById("hamburger").classList.remove("on");
+            document.getElementById("close").classList.remove("on");
+        }
+    </script>
+</head>
+
+<body>
+    <div id="headline_jy">
+        <a href="main.html"><img src="logo.jpg"></a>
+        <a href="main.html">
+            <h3>병원백과</h3>
+        </a>
+        <div id="menu">
+            <span id="hamburger" class="material-symbols-outlined" onclick="toggleMenu();">
+                menu
+            </span>
+            <span id="close" class="material-symbols-outlined" onclick="toggleClose();">
+                close
+            </span>
+            <div class="menu-inner">
+                <ul id="typelist_jy">
+                    <li><a href="all.html">종합병원</a></li>
+                    <li><a href="teeth.html">치과</a></li>
+                    <li><a href="eye.html">안과</a></li>
+                    <li><a href="internal.html">내과</a></li>
+                    <li><a href="ortho.html">정형외과</a></li>
+                    <li><a href="neuro.html">신경외과</a></li>
+                    <li><a href="ear.html">이비인후과</a></li>
+                    <li><a href="face.html">피부과</a></li>
+                    <li><a href="rehab.html">재활병원</a></li>
+                    <li><a href="baby.html">산부인과</a></li>
+                    <li><a href="urology.html">비뇨기과</a></li>
+                    <li><a href="korh.html">한의원</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="container_jy">
+        <h1></h1>
+        <div id="map_size_jy">
+            <img src="">
+            <iframe id="map_jy" src=""></iframe>
+        </div>
+        <img class="mobie_jy" src="">
+        <div id="time_main_jy">
+            <p>
+            <h3 style="margin-bottom: 10px;">진료시간</h3>
+            <ul id="time_jy">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            </p>
+            <p></p>
+            <p></p>
+            <p><span id="urlcnt"><a id="homepage_jy" href="" target='_blank'></a></span>
+            </p>
+            </div>
+    </div>
+    <script>
+        document.getElementById("container_jy").children[0].innerHTML = name;
+        document.getElementById("map_size_jy").children[0].setAttribute("src", img_name);
+        document.getElementById("map_size_jy").children[1].setAttribute("src", map_api);
+        document.getElementsByClassName("mobie_jy")[0].setAttribute("src", img_name);
+        document.getElementById("time_jy").children[0].innerHTML = monday;
+        document.getElementById("time_jy").children[1].innerHTML = tuesday;
+        document.getElementById("time_jy").children[2].innerHTML = wednesday;
+        document.getElementById("time_jy").children[3].innerHTML = thursday;
+        document.getElementById("time_jy").children[4].innerHTML = friday;
+        document.getElementById("time_jy").children[5].innerHTML = saturday;
+        document.getElementById("time_jy").children[6].innerHTML = sunday;
+        let week = [5, 6];
+        for (let day in week)
+            document.getElementById("time_jy").children[week[day]].classList.add("exceptiontime_jy");
+        document.getElementById("time_main_jy").children[3].innerHTML = call;
+        document.getElementById("time_main_jy").children[4].innerHTML = address;
+        document.getElementById("urlcnt").children[0].innerHTML = urlconnect;
+        document.getElementById("urlcnt").children[0].setAttribute("href", urlconnect);
+    </script>
+</body>
+
+</html>
