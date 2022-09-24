@@ -14,19 +14,40 @@
     margin: 50px;
 }
 .card{
-    background-color: #fff;
-    box-shadow: 0px 1px 5px #222;
+    width: 400px;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 100px 50px;
+    transition: all 0.3s cubic-bezier(0.42, 0.0, 0.58, 1.0);
+    background-color: #8aa2d3;
+}
+.card *{
+    padding: 10px;
+}
 
+.card:hover{
+    box-shadow: 0px 14px 28px #31353f, 0px 10px 10px #22252c;
+    transform: translateY(-10px);
 }
 .card>header{
     font-size:1.3rem;
+    color: #242c3b;
     padding:0.5rem;
 }
-.card>p{
+.card>data{
     padding:0.5rem;
     line-height: 1.6em;
+    color: #242c3b;
 }
 .card img{
     width: 280px;
     height: 166px;
 }
+a{
+    color:#000;
+    text-decoration: none;
+  }
+  
+  a:hover{
+    color:#000;
+  }
