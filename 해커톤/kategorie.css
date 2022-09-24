@@ -2,52 +2,47 @@
 body{
     background: #4374D9;
     font-family: 'Noto Sans KR', sans-serif;
-    display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    margin: 5rem;
 }
 
 #container{
+    /*box-sizing: border-box;*/
     display: grid;
-    grid-template-columns: repeat(4,260px);
-    grid-template-rows: repeat(3,250px);
-    column-gap: 15px;
-    row-gap: 15px;
-    margin: 1.0rem;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
+    place-items: center;
+    margin: 1rem;
 }
 
-article {
-  height: 100vh;
-}
 
 .btn {
     display: inline-block;
-    background: transparent;
     text-transform: uppercase;
     font-weight: 700;
     font-style: normal;
     font-size: 1.4rem;
     letter-spacing: 0;
     color: #000;
-    border-radius: 15px;
-    padding: 20px 50px 30px;
+    border-radius: 1.2rem;
+    padding: 1.7rem 2rem 1.8rem;
     transition: all 0.7s ease-out;
-    /*background: linear-gradient(270deg, rgba(233, 224, 147, 0.842), rgba(247, 224, 19, 0.842), rgba(34,34,34,0), rgba(34,34,34,0));*/
+    
     background: #fff;
     background-position: 1% 50%;
     background-size: 300% 300%;
-
-    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
-   7px 7px 20px 0px rgba(0,0,0,.1),
-   4px 4px 5px 0px rgba(0,0,0,.1);
+    box-shadow:inset 2px 2px 2px 0px rgba(211, 208, 208, 0.5),
+    7px 7px 20px 0px rgba(128, 125, 125, 0.1),
+    4px 4px 5px 0px rgba(0,0,0,.1);
+    
 
     text-decoration: none;
     text-align: center;
-    margin: 0.5rem;
+    margin: 2rem 0.5rem;
     border: none;
-    width: 50%;
-    height: 50%;
+    width: 10rem;
+    height: 7rem;
 
     display:flex;
     justify-content: center;
@@ -55,14 +50,13 @@ article {
 
     cursor: pointer;
 
-    box-shadow: 0 5px 4px rgba(0,0,0,.5);
-
   }
   
   .btn:hover {
     color: rgb(7, 7, 7);
     transform: translate(0, -10%);
     background-position: 99% 50%;
+    box-shadow: 0px 11px 22px #31353f, 0px 7px 7px #22252c;
   }
 
   img{
