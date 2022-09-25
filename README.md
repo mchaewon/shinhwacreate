@@ -21,4 +21,4 @@
 ● 프로젝트에 활용된 기술(3가지 이내) :
  jquery 사용, scss를 활용한 부드러운 화면 전환 애니메이션 효과
 
-● 시연 영상 : https://youtu.be/CVFOiS0QYk8
+● 시연 영상 : <https://youtu.be/CVFOiS0QYk8>
